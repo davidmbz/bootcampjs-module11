@@ -7,8 +7,14 @@
     <title>Vite + TS</title>
   </head>
   <body>
-    <div id="app">
-      <h1>TypeScript Sandbox</h1>
+    <div class="container">
+      <h1>Validador de IBAN Español</h1>
+      <form id="iban-form">
+        <label for="iban-input">Introduce el IBAN:</label>
+        <input type="text" id="iban-input" required />
+        <button type="submit">Buscar</button>
+      </form>
+      <section id="result" class="result-box"></section>
     </div>
     <script type="module" src="/src/main.ts"></script>
   </body>

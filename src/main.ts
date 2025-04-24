@@ -1,3 +1,5 @@
 import "./style.css";
 
-console.log("Hello Typescript!");
+import { setupUI } from "./ui";
+
+setupUI();
